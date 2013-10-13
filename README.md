@@ -1,5 +1,7 @@
 ## BDD (Binary Decision Diagram)
 
+[![Build Status](https://travis-ci.org/hidez8891/ruby-bdd.png)](https://travis-ci.org/hidez8891/ruby-bdd)
+
 BDDを作成してみる、それだけのライブラリ
 
 * 述語の文字列からBDDを作成
