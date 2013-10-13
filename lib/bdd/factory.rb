@@ -50,10 +50,11 @@ module BDD::Factory
   module_function :composition_recursive
   private_class_method :composition_recursive
 
+  # BDD用変数の取得
+  #
   def variable (var)
     @@nodes ||= {}
     @@nodes[var.to_s] ||= {:name => var, :false => 0, :true => 1}
   end
   module_function :variable
-  private_class_method :composition_recursive
 end
