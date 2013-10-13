@@ -38,6 +38,11 @@ BDDを作成してみる、それだけのライブラリ
         # output: bdd.png
         bdd.to_graph('png')
 
+## TODO
+
+ * 否定演算に未対応
+ * 恒真/矛盾の表現手段が無い
+
 ## License
 
 [MIT License](http://www.opensource.org/licenses/MIT)
